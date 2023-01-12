@@ -1,0 +1,66 @@
+.container
+  margin-top: 30px
+
+#texto
+  text-align: center
+  font-style: italic
+
+  text-align: center
+
+input
+  background: no-repeat!important
+  border: 2px solid #8e8e8e
+  border-radius: 4px
+  color: #797979
+  padding: 10px
+  border-radius: 20px
+  margin-top: 15px
+  width: 400px
+  height: 50rm
+
+::placeholder
+  color: #797979
+  opacity: 1
+
+#formulario
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  padding: 10px
+
+.recuperarSenha
+  margin-right: -230px
+  margin-top: 10px
+  color: #797979
+  text-decoration: underline
+
+#buttons
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+
+#btn1
+  margin-top: 10px
+  margin-right: 40px
+  border-radius: 20px
+
+#btn2
+  margin-top: 10px
+  border-radius: 20px
+
+//midia
+@media only screen and (max-width: 600px)
+  input
+    width: 90%
+    height: 50px
+    margin-top: 30px
+    border-radius: 10px
+
+  .recuperarSenha
+    margin-right: -140px
+
+  #btn1
+    margin-top: 10px
+    margin-right: 2%
+  #btn2
+    margin-top: 10px
